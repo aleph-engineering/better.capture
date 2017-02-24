@@ -1,16 +1,18 @@
 {
   "manifest_version": 2,
-
   "name": "better.capture",
   "description": "A better Capture for JIRA chrome extension",
   "version": "0.1",
-
   "browser_action": {
     "default_icon": "images/icon.png",
-    "default_popup": "index.html"
+    "default_title": "take a better capture for JIRA!"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+    "tabs"
   ]
 }
