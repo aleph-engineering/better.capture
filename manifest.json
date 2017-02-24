@@ -9,7 +9,8 @@
   },
   "background": {
     "scripts": [
-      "js/background.js"
+      "js/background.js",
+      "js/NavigatorAPI.js"
     ]
   },
   "permissions": [
