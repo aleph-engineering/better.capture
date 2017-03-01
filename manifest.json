@@ -8,12 +8,14 @@
     "default_title": "take a better capture for JIRA!"
   },
   "background": {
+    "persistent" : false,
     "scripts": [
-      "js/background.js",
-      "js/NavigatorAPI.js"
+      "js/background.js"
     ]
   },
+  "web_accessible_resources": ["js/injected.js"],
   "permissions": [
-    "tabs"
+    "tabs",
+    "activeTab"
   ]
 }

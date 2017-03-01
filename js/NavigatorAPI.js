@@ -1,10 +1,7 @@
 /**
  * Created by aliuska on 2/24/17.
  */
-/**
- * JavaScript Client Detection
- * (C) viazenetti GmbH (Christian Ludwig)
- */
+
 (function (window) {
     {
         var unknown = '-';
@@ -196,14 +193,14 @@
     };
 }(this));
 
-
-alert(
-    'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
-    'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
-    ' (' + jscd.browserVersion + ')\n' +
-    'Mobile: ' + jscd.mobile + '\n' +
-    'Flash: ' + jscd.flashVersion + '\n' +
-    'Cookies: ' + jscd.cookies + '\n' +
-    'Screen Size: ' + jscd.screen + '\n\n' +
-    'Full User Agent: ' + navigator.userAgent
-);
+//
+// alert(
+//     'OS: ' + jscd.os +' '+ jscd.osVersion + '\n' +
+//     'Browser: ' + jscd.browser +' '+ jscd.browserMajorVersion +
+//     ' (' + jscd.browserVersion + ')\n' +
+//     'Mobile: ' + jscd.mobile + '\n' +
+//     'Flash: ' + jscd.flashVersion + '\n' +
+//     'Cookies: ' + jscd.cookies + '\n' +
+//     'Screen Size: ' + jscd.screen + '\n\n' +
+//     'Full User Agent: ' + navigator.userAgent
+// );
